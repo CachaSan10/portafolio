@@ -1,0 +1,42 @@
+
+.acerca-de-mi{
+    text-align: justify;
+}
+
+.imagen-tecnologia{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.tecnologia{
+    background-color: #9BE8D8;
+    margin-top: 30px;
+
+}
+
+.tecnologia-imagenes{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.proyecto{
+    margin-top: 40px;
+    max-height: 600px;
+}
+
+.proyecto-mitad-1{
+background-color: #8EA7E9;
+}
+
+.proyecto-mitad-2{
+background-color: #FFCCCC;
+}
+
+.imagen-proyecto{
+    height: 30px;
+    width: auto;
+    display: block;
+    margin: auto; 
+}

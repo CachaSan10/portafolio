@@ -1,0 +1,10 @@
+.footer-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-size: 18px;
+}

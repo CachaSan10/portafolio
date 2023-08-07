@@ -1,0 +1,12 @@
+.contenedor{
+    background-color: #FFF6BF ;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 20px;
+}
