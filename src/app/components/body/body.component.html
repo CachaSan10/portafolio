@@ -1,16 +1,18 @@
-<div class="row">
-    <div class="col-md-2">
-    </div>
+
+<h1 class="text-center">MI PORTAFOLIO</h1>
+<div class="row contenedor-presentacion">
+    
   
-    <div class="col-md-8">
-      <div class="card mb-3" style="max-width: 640px;">
+    
+      <div class="card mb-4 contenedor-presentacion-hijo" style="max-width: 900px;">
           <div class="row g-0">
-            <div class="col-md-4">
-              <img src="..." class="img-fluid rounded-start" alt="...">
+            <div class="col-md-5 col-sm-5">
+              <img src="..." class="img-fluid rounded-start" alt="Fotografia de presentacion">
             </div>
-            <div class="col-md-8">
+
+            <div class="col-md-7 col-sm-7">
               <div class="card-body">
-                <h5 class="card-title">Hola!, Soy Nahuel Alberto Cachambi</h5>
+                <h5 class="card-title nombre-titulo">Hola!, Soy Nahuel Alberto Cachambi</h5>
                 <p class="card-text acerca-de-mi">Mi nombre es Nahuel Alberto Cachambi actualmente estoy estudiando la carrera de Analista Programador Universitario.
                   Me apasiona el desarrollo de aplicaciones web en especial en el area del backend, también me gusta desarrollar el frontend de las paginas
                   y agregarle mi estilo. Mi pasatiempo es indagar y estudiar las distintas tecnologías que se usan para el desarrollo de aplicaciones web, como
@@ -21,15 +23,14 @@
           </div>
         </div>
   
-    </div>
-        <div class="col-md-1">
-        </div>
+   
   
   </div>
-  
+
+
   <div class="row tecnologia">
     <h2 class="text-center">Tecnologías que utilizo</h2>
-    <div class="row-cols-3 row-cols-md-3">
+    <div class="row-cols-3 row-cols-lg-5 row-cols-md-4">
       <div class="tecnologia-imagenes" *ngFor="let i of imagenesTecnologia">
         <img class="imagen-tecnologia" src="{{i.path}}" alt="{{i.descripcion}}">
         <h3 class="text-center">{{i.nombre}}</h3>
@@ -40,12 +41,14 @@
   
   <div class="row proyecto">
     <div class="col-md-5 col-xl-5 proyecto-mitad-1">
-      <h2>Proyectos que realize</h2>
-    </div>
+     
+        <h2>Proyectos que realize</h2>
+      
+      </div>
     <div class="col-md-7 col-xl-7 proyecto-mitad-2">
         <div *ngFor="let p of proyectos">
           <p>{{p.descripcion}}</p>
-         <a href="{{p.url}}"> <img class="imagen-proyecto" src="../../../assets/imagenes/icon-github.svg" alt=""></a>
+         <a href="{{p.url}}"> <img class="imagen-proyecto" src="assets/imagenes/icon-github.svg" alt=""></a>
         </div>
     </div>
   

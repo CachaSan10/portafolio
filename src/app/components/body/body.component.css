@@ -1,4 +1,20 @@
 
+.contenedor-presentacion{
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+.contenedor-presentacion-hijo{
+   
+margin: auto;
+
+}
+
+.nombre-titulo{
+    font-weight: bold;
+
+}
 .acerca-de-mi{
     text-align: justify;
 }
@@ -16,22 +32,41 @@
 
 }
 
+.tecnologia h2 {
+    font-weight: bold;
+    padding-top: 30px;
+    
+}
+
 .tecnologia-imagenes{
     display: inline-block;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .proyecto{
     margin-top: 40px;
-    max-height: 600px;
+    margin-bottom: 25px;
+    max-height: 800px;
+ 
 }
+
+
 
 .proyecto-mitad-1{
 background-color: #8EA7E9;
+display: flex;
+}
+
+
+.proyecto-mitad-1 h2 {
+   margin: auto;
+   font-weight: bold;
 }
 
 .proyecto-mitad-2{
 background-color: #FFCCCC;
+padding: 25px 15px  25px 15px ;
 }
 
 .imagen-proyecto{
